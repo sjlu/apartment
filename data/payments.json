@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "from": "shy",
+    "to": "steve",
+    "amount": 1975,
+    "what": "paying off the shitty broker, broker's fee",
+    "when": 1414006479877
+  },
+  {
+    "from": "steve",
+    "to": "vendor",
+    "amount": 500,
+    "what": "deposit for taking the apartment off the market",
+    "when": 1414006412238
+  }
+]
