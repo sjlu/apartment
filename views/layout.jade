@@ -1,7 +1,16 @@
 doctype html
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(http-equiv='Content-Type' context='text/html; charset=utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    meta(name='description' content='')
+
+    title
+      | records
+
+    link(rel='stylesheet' href='/bower_components/twitter/dist/css/bootstrap.min.css')
+    link(rel='stylesheet' href='/stylesheets/style.css')
+
   body
-    block content
+    block body
+    block scripts
