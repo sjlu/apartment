@@ -1,5 +1,33 @@
 [
   {
+    "from": "steve",
+    "to": "vendor",
+    "amount": 2475,
+    "what": "broker fee to cynthia",
+    "when": 1414007205755
+  },
+  {
+    "from": "steve",
+    "to": "vendor",
+    "amount": 1975,
+    "what": "broker fee to Living Real Estate Group",
+    "when": 1414007190670
+  },
+  {
+    "from": "steve",
+    "to": "vendor",
+    "amount": 2750,
+    "what": "nov. 1 rent",
+    "when": 1414007156414
+  },
+  {
+    "from": "steve",
+    "to": "vendor",
+    "amount": 2750,
+    "what": "security deposit",
+    "when": 1414007130182
+  },
+  {
     "from": "shy",
     "to": "steve",
     "amount": 1975,
