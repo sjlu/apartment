@@ -1,6 +1,6 @@
-## records
+## apartment
 
-Contains the records for the Shy and Steve cave
+Organizing things for Shy & Steve's apartment
 
 ### install
 
