@@ -8,7 +8,7 @@ Contains the records for the Shy and Steve cave
 * `npm install`
 * `bower install`
 * `npm start`
-* go to http://localhost:3000
+* go to [localhost:3000](http://localhost:3000)
 
 ### info
 
