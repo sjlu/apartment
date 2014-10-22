@@ -4,22 +4,27 @@ block body
   div.container
     include flash
     h3
-      | who owes who
-    table.table
-      thead
-        th
-        each person in people
-          th
-            | #{person}
-      tbody
-        each owes,person in money
-          tr
-            td
-              strong
-                | #{person}
-            each owedTo in people
-              td
-                | #{owes[owedTo]}
+      | who owes whom
+    p
+      each owes,person in money
+        each owedTo in people
+          if owes[owedTo]
+            | #{person} owes #{owedTo} #{owes[owedTo]}
+    //- table.table
+    //-   thead
+    //-     th
+    //-     each person in people
+    //-       th
+    //-         | #{person}
+    //-   tbody
+    //-     each owes,person in money
+    //-       tr
+    //-         td
+    //-           strong
+    //-             | #{person}
+    //-         each owedTo in people
+    //-           td
+    //-             | #{owes[owedTo]}
 
     h3
       | the books
