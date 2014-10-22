@@ -1,13 +1,14 @@
 ## records
 
-Contains the records for the Shy and Steve cave.
+Contains the records for the Shy and Steve cave
 
 ### install
 
-* clone it.
+* clone it
 * `npm install`
 * `bower install`
 * `npm start`
+* go to http://localhost:3000
 
 ### info
 
